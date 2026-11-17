@@ -2,9 +2,9 @@
   color-scheme: light;
   --ink: #40343a;
   --muted: #6c625e;
-  --paper: #f2e8dc;
-  --white: #fffaf3;
-  --line: #dfd1c0;
+  --paper: #fbfaf8;
+  --white: #ffffff;
+  --line: #e7e4df;
   --accent: #d5a38f;
   --accent-dark: #44343b;
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -260,13 +260,13 @@ a:focus-visible {
 .side-column {
   align-self: start;
   padding: 1.6rem;
-  background: #e8dccb;
+  background: #f2f0ed;
 }
 
 .side-section + .side-section {
   margin-top: 2.5rem;
   padding-top: 2rem;
-  border-top: 1px solid #d6c6b5;
+  border-top: 1px solid #e1ddd7;
 }
 
 .side-section h2 {
