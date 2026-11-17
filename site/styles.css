@@ -1,12 +1,12 @@
 :root {
   color-scheme: light;
-  --ink: #1d2c3a;
-  --muted: #596873;
-  --paper: #f7f8f6;
-  --white: #fff;
-  --line: #dce3e1;
-  --accent: #b6e3d3;
-  --accent-dark: #193b3c;
+  --ink: #30342f;
+  --muted: #6b6962;
+  --paper: #faf8f3;
+  --white: #fffefa;
+  --line: #e6e0d6;
+  --accent: #e8b99e;
+  --accent-dark: #4b3932;
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -33,7 +33,7 @@ a {
 }
 
 a:focus-visible {
-  outline: 3px solid #6ab39a;
+  outline: 3px solid #ad765e;
   outline-offset: 4px;
 }
 
@@ -80,7 +80,7 @@ a:focus-visible {
 
 .eyebrow {
   margin: 0 0 0.4rem;
-  color: #4a756c;
+  color: #806451;
   font-size: 0.75rem;
   font-weight: 750;
   letter-spacing: 0.14em;
@@ -107,14 +107,14 @@ a:focus-visible {
 .intro {
   max-width: 760px;
   margin: 1.25rem 0 0;
-  color: #e2e8e7;
+  color: #f0e9e1;
   font-size: clamp(1.05rem, 2vw, 1.25rem);
   line-height: 1.55;
 }
 
 .interests {
   margin: 0.65rem 0 1.25rem;
-  color: #b8c5c7;
+  color: #c9c1b6;
 }
 
 .hero-link {
@@ -131,7 +131,7 @@ a:focus-visible {
 }
 
 .hero-link:hover {
-  background: #d1f0e5;
+  background: #f2d3c1;
 }
 
 .section-nav {
@@ -253,20 +253,20 @@ a:focus-visible {
 .clinical-card {
   padding: 1.4rem 1.5rem;
   border: 1px solid var(--line);
-  border-left: 3px solid #73aa98;
+  border-left: 3px solid #bd8a70;
   background: var(--white);
 }
 
 .side-column {
   align-self: start;
   padding: 1.6rem;
-  background: #edf2ef;
+  background: #f1ece4;
 }
 
 .side-section + .side-section {
   margin-top: 2.5rem;
   padding-top: 2rem;
-  border-top: 1px solid #d5dfda;
+  border-top: 1px solid #e3dacd;
 }
 
 .side-section h2 {
@@ -284,10 +284,10 @@ a:focus-visible {
 
 .tag-list li {
   padding: 0.4rem 0.65rem;
-  border: 1px solid #cfddd6;
+  border: 1px solid #e1d3c5;
   border-radius: 2px;
   background: var(--white);
-  color: #344c4a;
+  color: #51443b;
   font-size: 0.84rem;
 }
 
@@ -319,7 +319,7 @@ a:focus-visible {
 }
 
 .contact-section address a {
-  text-decoration-color: #9ab7aa;
+  text-decoration-color: #c9a48d;
   text-underline-offset: 0.2em;
 }
 
@@ -329,7 +329,7 @@ a:focus-visible {
   gap: 1rem;
   padding: 1.3rem max(1.5rem, calc((100% - 1120px) / 2));
   background: var(--ink);
-  color: #d8e2e0;
+  color: #eee8df;
   font-size: 0.86rem;
 }
 
